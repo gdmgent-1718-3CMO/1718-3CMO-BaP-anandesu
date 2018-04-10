@@ -6,7 +6,7 @@
             display: block;
         }
         .navbar-collapse {
-            width:100%;
+            width: 80%;
         }
         .dropdown-menu {
             position: static !important;
@@ -36,4 +36,29 @@
 
  } 
 
- 
+ .navbar {
+     font-family: "Nunito", sans-serif;
+     padding : 20px;
+     font-size:13pt;
+     color: black;
+     background: url('../images/fluid_no8.jpg');
+     background-size: cover;
+     background-position: center center;
+     .navbar-collapse {
+         display: block;
+     }
+     .container {
+         background: white;
+         border-radius: 10px;
+     }
+ }
+
+ .navbar .nav-item {
+     color: black;
+ }
+
+ .header {
+     background: white;
+     border-radius: 30px;
+     width: 100%;
+ }

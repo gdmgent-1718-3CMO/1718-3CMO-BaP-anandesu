@@ -1,11 +1,11 @@
 // default-styling
 
 body {
-    font-family: $myfont-family-base;
+    font-family: "metropolis";
     font-weight: $font-weight-base;
-    font-size: $font-size-base;
+    font-size: 12pt;
     line-height: $lineheight-base;
-    background-color: $body-bg;
+    background-color: white;
     color: $body-color;
 }
 
@@ -14,14 +14,58 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $font-weight-bold;
 }
 
+@font-face {
+    font-family:"norwester";
+    src:url("../fonts/norwester.otf");
+}
+
+@font-face {
+    font-family:"metroplis";
+    src:url("../fonts/Metropolis-Regular.otf");
+}
+
+
+
 h1 {
     font-weight: $font-weight-light;
-    font-size: 4rem;
-    color: $color-grey-2;
+    font-family:"norwester";
+    font-size: 34pt;
+    margin-bottom:50px;
+    margin-top: 40px;
+    padding-left: 10px;
+   
+
+
+    color: #3b4643;
 }
+
+.variaties_2 {
+    width:200px;
+    margin-left:40px;
+}
+
+.donts {
+    width : 550px;
+}
+
+.primary {
+    width:100%;
+    padding-left:9px;
+    margin-left:5px;
+}
+
+.container_1 {
+    padding:100px;
+}
+
+.tekst {
+    padding: 30px;
+}
+
 h2 {
-    font-weight: $font-weight-light;
-    font-size: 2rem;
+    font-weight: semibold;
+    font-family: 'Nunito', sans-serif; 
+    font-size: 16pt;
     margin: 2rem 0 1rem;
 }
 h3, h4, h5, h6 {
@@ -30,7 +74,7 @@ h3, h4, h5, h6 {
 }
 a {
     text-decoration: none;
-    color: $body-link;
+    color: black;
     border-bottom: dotted 1px $body-link;
     &:hover{
         color: $body-link;
@@ -62,6 +106,14 @@ main ul {
         margin-right: 18px;
     }    
   }
+}
+
+.logo_1 {
+    padding-top:10px;
+}
+
+.min_ruimte {
+    margin-top:45px;
 }
 
 //geordende lijstjes met een ander symbool of kleur
