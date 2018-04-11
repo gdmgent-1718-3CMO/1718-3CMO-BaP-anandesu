@@ -13,6 +13,12 @@
   permalink: logo/
   # fa-icon: icon-graduation-cap
 
+- name: Typografie
+  description: Typo
+  folder: pages/typografie/
+  permalink: typo/
+  # fa-icon: icon-graduation-cap
+
 
 
 - name: Kleur
@@ -20,6 +26,12 @@
   folder: pages/kleur/
   permalink: kleur/
   # fa-icon: icon-info
+
+- name: imagery
+  description: imagery
+  folder: pages/imagery/
+  permalink: imagery/
+  # fa-icon: icon-graduation-cap
 
 - name: Styleguide
   description: Stijlgids voor de Huistijlgids

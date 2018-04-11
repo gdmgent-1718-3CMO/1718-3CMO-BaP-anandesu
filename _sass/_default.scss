@@ -24,15 +24,65 @@ h1, h2, h3, h4, h5, h6 {
     src:url("../fonts/Metropolis-Regular.otf");
 }
 
+.norwester {
+    font-family: "norwester";
+    line-height: 22pt;
+    font-size: 14pt;
+}
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+    line-height: 22pt;
+    font-size: 14pt;
+    
+    font-weight: bold;
+}
+
+.nunitoreg {
+    font-family: "Nunito", sans-serif;
+    line-height: 22pt;
+    font-size: 12pt;
+    font-style : normal;
+    font-weight: bold;
+}
+
+.nunitolig {
+    font-family: "Nunito", sans-serif;
+    line-height: 22pt;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.metro {
+    font-family: "metropolis", sans-serif;
+    line-height: 22pt;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+.metro1 {
+    font-family: "metropolis", sans-serif;
+    line-height: 22pt;
+    font-size: 12pt;
+    font-weight: thin;
+}
+
+.metro2 {
+    font-family: "metropolis", sans-serif;
+    line-height: 22pt;
+    font-size: 10pt;
+    font-weight: thin;
+}
+
 
 
 h1 {
     font-weight: $font-weight-light;
     font-family:"norwester";
-    font-size: 34pt;
-    margin-bottom:50px;
-    margin-top: 40px;
-    padding-left: 10px;
+    font-size: 28pt;
+    padding-bottom:100px;
+    margin-top: 37px;
+    
    
 
 
@@ -46,6 +96,8 @@ h1 {
 
 .donts {
     width : 550px;
+    position: relative;
+    position: -20px;
 }
 
 .primary {
@@ -55,12 +107,20 @@ h1 {
 }
 
 .container_1 {
-    padding:100px;
+    padding-right:35px;
+    padding-left:35px;
+    padding-top: 100px;
 }
 
-.tekst {
-    padding: 30px;
+.test {
+    padding-right:180px;
 }
+
+.min_ruimte {
+    width: 90%;
+}
+
+
 
 h2 {
     font-weight: semibold;
