@@ -44,6 +44,16 @@ body {
     width: fit-content;
 }
 
+#markering2 {
+    background-color:#FFF0B4;
+    padding-top: -3px;
+    border-radius: 0.5em;
+    width: fit-content;
+    font-family:"Nunito" , sans-serif !important;
+    font-style: bold;
+    font-size:22px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: $myfont-family-title;
     font-weight: $font-weight-bold;
@@ -164,7 +174,16 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
+.tool {
+    width:250px;
+}
+.web_kleur {
+    margin-left:-30px;
+    width: 150%;
+}
+.logo_nav {
+    width: 45px;
+}
 
 h1 {
     font-weight: $font-weight-light;
@@ -173,12 +192,16 @@ h1 {
     padding-bottom:100px;
     margin-top: 5px;
     color:#6E817B;
-    
-   
+    }
 
-
-    
-}
+    .kleuren {
+        font-weight: $font-weight-light;
+        font-family:"norwester";
+        font-size: 40pt;
+        padding-bottom:100px;
+        margin-top: 5px;
+        color:#FFD161;
+    }
 
 .variaties_2 {
     width:200px;
@@ -194,7 +217,7 @@ h1 {
 .primary {
     width:100%;
     padding-left:9px;
-    margin-left:5px;
+    margin-left:-20px;
 }
 
 .container_1 {
@@ -217,6 +240,10 @@ h1 {
 
 .ruimte_img {
     width: 90%;
+}
+
+.fontstijl {
+    margin-left:-35px;
 }
 
 
