@@ -1,12 +1,47 @@
 // default-styling
 
 body {
-    font-family: "metropolis";
+    font-family: "metropolis-light";
     font-weight: $font-weight-base;
-    font-size: 12pt;
+    font-size: 11pt;
     line-height: $lineheight-base;
     background-color: white;
     color: $body-color;
+}
+
+#bold {
+    font-family:"metropolis";
+    font-size: 14pt;
+    
+    
+}
+
+#eco {
+    color:#6E817B;
+}
+
+#was {
+    color:#90BAAC;
+}
+
+#rec {
+    color:#E0BE5D;
+}
+
+
+
+#markering {
+    font-family:"Nunito" , sans-serif !important;
+    font-style: bold;
+    font-size:22px;
+    
+}
+
+#markering {
+    background-color:#A4C1B8;
+    padding-top: -3px;
+    border-radius: 0.5em;
+    width: fit-content;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +58,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family:"metroplis";
     src:url("../fonts/Metropolis-Regular.otf");
 }
+
+@font-face {
+    font-family:"metroplis-light";
+    src:url("../fonts/Metropolis-Light.otf");
+}
+
+@font-face {
+    font-family:"metroplis-thin";
+    src:url("../fonts/Metropolis-Thin.otf");
+}
+
+@font-face {
+    font-family:"metroplis-bold";
+    src:url("../fonts/Metropolis-SemiBold.otf");
+}
+
+
 
 .norwester {
     font-family: "norwester";
@@ -74,24 +126,63 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: thin;
 }
 
+.logo{
+    
+    margin-left: 65px;
+    width:80%;
+}
+
+.inleiding {
+    font-style: italic;
+    line-height: 16px;
+    color: #6E817B;
+    font-size:12pt;
+    font-family:"metropolis-thin", sans-serif;
+
+}
+
+.onderdelen {
+   
+    margin-top:40px;
+    width: 100%;
+    display:block;
+    
+    
+
+}
+.onder {
+    width: 35%;
+    margin-left:110px;
+    
+
+}
+
+.container_onderdelen {
+    margin-top:20px;
+    
+    
+
+}
+
 
 
 h1 {
     font-weight: $font-weight-light;
     font-family:"norwester";
-    font-size: 28pt;
+    font-size: 40pt;
     padding-bottom:100px;
-    margin-top: 37px;
+    margin-top: 5px;
+    color:#6E817B;
     
    
 
 
-    color: #3b4643;
+    
 }
 
 .variaties_2 {
     width:200px;
-    margin-left:40px;
+    margin-left:80px;
 }
 
 .donts {
@@ -112,21 +203,36 @@ h1 {
     padding-top: 100px;
 }
 
-.test {
-    padding-right:180px;
+.tekst{
+    padding-right:15%;
 }
 
 .min_ruimte {
+    width: 100%;
+}
+
+.min_ruimte2 {
+    width: 150%;
+}
+
+.ruimte_img {
     width: 90%;
 }
 
 
 
+.min_grootte {
+width : 70%;
+ }
+
+
+
 h2 {
-    font-weight: semibold;
+    font-style: bold;
     font-family: 'Nunito', sans-serif; 
     font-size: 16pt;
     margin: 2rem 0 1rem;
+    color:#E0BE5D;
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
